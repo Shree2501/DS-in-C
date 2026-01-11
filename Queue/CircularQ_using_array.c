@@ -28,7 +28,7 @@ int main()
                 dequeue();
                 break;
             case 3:
-                printf("Queue is : \n");
+                printf("\nQueue is : \n");
                 display();
                 break;
             case 4:
@@ -43,7 +43,7 @@ int main()
 void enqueue()
 {
     int value;
-    printf("Enter value to insert: ");
+    printf("\nEnter value to insert: ");
     scanf("%d",&value);
     if (rear+1 % size == front)
     {
@@ -91,4 +91,3 @@ void display(){
         i = (i + 1) % size;
     }
 }
-

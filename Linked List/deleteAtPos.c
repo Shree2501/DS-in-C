@@ -55,11 +55,6 @@ void delete_at_pos(int pos){
     }
     else{
         for(int i=1;i<pos;i++){
-            if(temp == NULL)
-            {
-                printf("Invalid position\n");
-                return;
-            }
             prev=temp;
             temp=temp->next;
         }
